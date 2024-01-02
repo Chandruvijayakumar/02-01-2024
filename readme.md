@@ -12,6 +12,13 @@
   +  this.studio = studio;
    + this.rating = rating;
 +  }
+#### Write a method getPG, which takes an array of base type Movie as its argument, 
++  returns a new array of only those movies in the input array with a rating of 
+  ### "PG"
+ + You may assume the input array is full of Movie instances.
+ + The returned array need not be full.
++ + + + + + + + + + + + + 
+  
  + static getPG(input) {
   +  let val = input.filter((Movie) => Movie.rating === "PG");
    + return val;
@@ -24,6 +31,11 @@
 +  new Movie("200 Pounds Beauty", "Colorpix Studio", "PG"),
  + new Movie("Hunger", "B&W Studio.", "PG"),
 + ];
+
+#### Write a piece of code that creates an instance of the class Movie with the title
+### the class Movie with the title “Casino Royale”, 
+### the studio “Eon Productions”, 
+### the rating “PG­13”*/
 
 + console.log(Movie.getPG(ListOfMovies));
 
