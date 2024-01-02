@@ -1,7 +1,10 @@
 ## 1.Class Movie
-/*a.Write a constructor for the class Movie, which takes a String representing 
-the title of the movie, a String representing the studio, and a String representing 
-the rating as its arguments, and sets the respective class properties to these values.*/
+##### /*a.Write a constructor for the class Movie, 
+###### which takes a String representing 
++ the title of the movie, 
++  a String representing the studio, 
++   a String representing  the rating as its arguments, 
++    sets the respective class properties to these values.*/
 
 + class Movie {
 +  constructor(title, studio, rating = "PG") {
@@ -14,7 +17,7 @@ the rating as its arguments, and sets the respective class properties to these v
    + return val;
 +  }
 + }
-+let ListOfMovies = [
++ let ListOfMovies = [
 +  new Movie("Sing 2", "Illumination", "PG"),
  + new Movie("The Impossible", "Telecinco Cinema", "R"),
   + new Movie("Pretty Woman", "Disney studios", "PG"),
@@ -30,40 +33,40 @@ the rating as its arguments, and sets the respective class properties to these v
 + /****************************************************************************************************************************************
 
 ## 2.Circle
-+class Circle {
-  constructor(radius = 1.0, color = "red") {
-    this._radius = radius;
-    this._color = color;
-  }
++ class Circle {
+ + constructor(radius = 1.0, color = "red") {
+  +  this._radius = radius;
+   + this._color = color;
+ + }
 
  + get radius() {
-    return this._radius;
-  }
+  +  return this._radius;
+ + }
 
  + set radius(radius) {
-    this._radius = radius;
-  }
+  +  this._radius = radius;
++  }
 
 + get color() {
-    return this._color;
-  }
+  +  return this._color;
+ + }
 
   + set color(color) {
-    this._color = color;
-  }
+  +  this._color = color;
+ + }
 
  + toString() {
-    return `Circle [radius = ${this._radius} , color = ${this._color}]`;
-  }
+  +  return `Circle [radius = ${this._radius} , color = ${this._color}]`;
+ + }
 
  + getArea() {
-    return Math.PI * Math.pow(this._radius, 2);
-  }
+  +  return Math.PI * Math.pow(this._radius, 2);
+ + }
 
  + getCircumference() {
-    return 2 * Math.PI * this._radius;
-  }
-}
+  +  return 2 * Math.PI * this._radius;
+ + }
++ }
 
 + const circle1 = new Circle(2, "Blue");
 + const circle2 = new Circle(5, "Lavander");
