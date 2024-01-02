@@ -1,5 +1,5 @@
 ## 1.Class Movie
-##### /*a.Write a constructor for the class Movie, 
+##### Write a constructor for the class Movie, 
 ###### which takes a String representing 
 + the title of the movie, 
 +  a String representing the studio, 
@@ -17,7 +17,9 @@
   ### "PG"
  + You may assume the input array is full of Movie instances.
  + The returned array need not be full.
-+ + + + + + + + + + + + + 
+
+
+
   
  + static getPG(input) {
   +  let val = input.filter((Movie) => Movie.rating === "PG");
@@ -33,9 +35,9 @@
 + ];
 
 #### Write a piece of code that creates an instance of the class Movie with the title
-### the class Movie with the title “Casino Royale”, 
-### the studio “Eon Productions”, 
-### the rating “PG­13”*/
+### The class Movie with the title “Casino Royale”, 
+### The studio “Eon Productions”, 
+### The rating “PG­13”*/
 
 + console.log(Movie.getPG(ListOfMovies));
 
