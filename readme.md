@@ -44,7 +44,6 @@
 + let CasinoRoyale = new Movie("Casino Royale", "Eon Productions", "PG­13");
 + console.log(CasinoRoyale);
 
-+ /****************************************************************************************************************************************
 
 ## 2.Circle
 + class Circle {
@@ -93,7 +92,6 @@
 + console.log("Area:", circle2.getArea());
 + console.log("Circumference:", circle2.getCircumference());
 
-/****************************************************************************************************************************************
 
 ## 3.Person
 
@@ -138,7 +136,7 @@
 + console.log(person1.getPersonDetails());
 + console.log(person2.getPersonDetails());
 
-/****************************************************************************************************************************************
+ 
 ## 4.UberPrice
 + class UberPrice {
  + constructor(distance, duration, baseFare, costPerMile, costPerMinute) {
